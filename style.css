@@ -114,3 +114,26 @@ p {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+
+@media only screen and (min-width: 700px) {
+  .card {
+    width: 50%;
+    display: flex;
+  }
+
+  .left {
+    width: 80%;
+    height: 100%;
+  }
+
+  .article-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .right {
+    padding: 0px 10px;
+  }
+}
