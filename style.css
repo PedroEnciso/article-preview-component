@@ -1,0 +1,20 @@
+:root {
+  --title-text: hsl(217, 19%, 35%);
+  --name-text: hsl(214, 17%, 51%);
+  --body-text: hsl(212, 23%, 69%);
+  --date-text: hsl(210, 46%, 95%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
