@@ -108,13 +108,12 @@ p {
 }
 
 .share-container {
-  display: none;
+  visibility: hidden;
   position: absolute;
   width: 90%;
   background: hsl(217, 19%, 35%);
   transform: translateY(-90px);
   border-radius: 0px 0px 10px 10px;
-  transition: all 0.4s;
 }
 
 .share-options {
@@ -168,7 +167,7 @@ p {
 
   .share-container {
     width: fit-content;
-    transform: translate(75%, -250%);
+    transform: translate(75%, -225%);
     border-radius: 10px 10px 10px 10px;
     box-shadow: 0px 10px 10px rgba(116, 116, 116, 0.26);
   }
@@ -181,6 +180,6 @@ p {
 
 @media only screen and (min-width: 800px) {
   .share-container {
-    transform: translate(100%, -250%);
+    transform: translate(110%, -225%);
   }
 }
